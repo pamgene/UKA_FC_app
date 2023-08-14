@@ -474,7 +474,7 @@
         "kind": "WizardStepModel",
         "namespace": "UKA_FC",
         "description": "Find kinase activity changes from differential peptide phosphorylation",
-        "appDesignType": "uka.c03_simple",
+        "appDesignType": "uka_fc.c03_simple",
         "factors": [
           {
             "kind": "MappingFactor",
