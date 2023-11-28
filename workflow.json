@@ -2,7 +2,7 @@
   "kind": "Workflow",
   "id": "387c06aa5634942391a5403a078f1617",
   "isDeleted": false,
-  "rev": "3-4b867d15b70eed5d7229c0e3cb657a76",
+  "rev": "4-ee8a78021145b6186319954b2e9de155",
   "description": "Converts a list of peptides into a list of kinases.",
   "name": "UKA_FC_app",
   "createdBy": "dschuller",
@@ -17,12 +17,12 @@
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2023-08-14T08:59:03.374428Z"
+    "value": "2023-11-28T11:09:41.177243Z"
   },
   "urls": [
     {
       "kind": "Url",
-      "uri": "https://github.com/pamgene/UKA_FC_app"
+      "uri": "https://github.com/tercen/simple_workflow_tmpl"
     }
   ],
   "tags": [],
@@ -50,7 +50,7 @@
   ],
   "url": {
     "kind": "Url",
-    "uri": "https://github.com/pamgene/UKA_FC_app"
+    "uri": "https://github.com/pamgene/UKA_app"
   },
   "version": "0.2.5",
   "authors": [],
@@ -250,8 +250,7 @@
                 },
                 "axisSettings": {
                   "kind": "AxisSettings",
-                  "properties": [],
-                  "propertyValues": []
+                  "meta": []
                 },
                 "graphicalFactor": {
                   "kind": "GraphicalFactor",
@@ -284,8 +283,7 @@
                 },
                 "axisSettings": {
                   "kind": "AxisSettings",
-                  "properties": [],
-                  "propertyValues": []
+                  "meta": []
                 },
                 "graphicalFactor": {
                   "kind": "GraphicalFactor",
@@ -355,8 +353,8 @@
           "operatorRef": {
             "kind": "OperatorRef",
             "name": "Upstream Kinase Analysis",
-            "version": "0.2.0",
-            "operatorId": "387c06aa5634942391a5403a071c7064",
+            "version": "0.3.1",
+            "operatorId": "e3d98495ccd1bc1ddde3430a4d2e873c",
             "operatorKind": "ShinyOperator",
             "propertyValues": [
               {
@@ -419,7 +417,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 148
+          "nRows": 1
         },
         "taskId": ""
       },
@@ -472,9 +470,9 @@
       },
       "model": {
         "kind": "WizardStepModel",
-        "namespace": "UKA_FC",
+        "namespace": "UKA",
         "description": "Find kinase activity changes from differential peptide phosphorylation",
-        "appDesignType": "uka_fc.c03_simple",
+        "appDesignType": "uka.c03_simple",
         "factors": [
           {
             "kind": "MappingFactor",

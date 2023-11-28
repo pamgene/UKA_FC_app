@@ -4,6 +4,10 @@
 
 The `UKA_FC_app` allows performs Upstream Kinase Analysis (UKA) for tyrosine or serine threonine kinases. The UKA algorithm predicts differential kinase activity in a Test Condition compared to Control. The UKA uses knowledge from publicly available databases of kinase-substrate relationships. The `UKA_FC` version of the algorithm takes a single column foldchange input.
 
+#### Versions and UKA database
+* Version 0.0.3 and below uses the UKA-2022 db
+* Version 0.1.0 and above uses the UKA-2023 db
+
 ##### Details
 
 * Use the Log2 Fold Change (LFC) values of a comparison.
