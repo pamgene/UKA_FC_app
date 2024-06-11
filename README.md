@@ -6,7 +6,9 @@ The `UKA_FC_app` allows performs Upstream Kinase Analysis (UKA) for tyrosine or 
 
 #### Versions and UKA database
 * Version 0.0.3 and below uses the UKA-2022 db
-* Version 0.1.0 and above uses the UKA-2023 db
+* Version 0.1.0 and above uses the UKA-2023 db (contains Array Layouts 86312, 86402, 86412, 87102)
+	* Version 0.1.1: scoreplot Kinase name colors fixed
+* Version 0.2.0: uses UKA db 2024 (contains Array Layouts 86312, 86402, 86412, 87102, 87202)
 
 ##### Details
 
@@ -18,7 +20,7 @@ The `UKA_FC_app` allows performs Upstream Kinase Analysis (UKA) for tyrosine or 
 
 Input projection|.
 ---|---
-`y-axis`        | numeric, single signal value per cell
+`y-axis`        | numeric, LFC data (log / VSN / Combat-corrected FC), single value / cell
 `row`           | peptides
 `column`| factor with LFC
 
@@ -31,7 +33,6 @@ This workflow has 1 operator:
 
 * [Upstream Kinase Analysis Shiny Operator](https://github.com/pamgene/upstream_kinase_analysis_shiny_operator)
 
-More on UKA:  
-https://pamcloud.pamgene.com/wiki/Wiki.jsp;jsessionid=C05336E7DB607B2FAB61F9479C1DD2C8?page=Background%20to%20the%20Upstream%20Kinase%20Analysis%20PamApp&TARGET=https%3A%2F%2Fpamcloud.pamgene.com%2Fwiki%2FWiki.jsp%3Bjsessionid%3DC05336E7DB607B2FAB61F9479C1DD2C8%3Fpage%3DBackground%2520to%2520the%2520Upstream%2520Kinase%2520Analysis%2520PamApp&SAMLart=AAFSsPYAkNKN6Mb0Q6Li8D8gawrtLLyj2rv3yxkxmhvECwuISY44YcAl
+More on UKA in the [PamWiki](https://pamcloud.pamgene.com/wiki/Wiki.jsp;jsessionid=C05336E7DB607B2FAB61F9479C1DD2C8?page=Background%20to%20the%20Upstream%20Kinase%20Analysis%20PamApp&TARGET=https%3A%2F%2Fpamcloud.pamgene.com%2Fwiki%2FWiki.jsp%3Bjsessionid%3DC05336E7DB607B2FAB61F9479C1DD2C8%3Fpage%3DBackground%2520to%2520the%2520Upstream%2520Kinase%2520Analysis%2520PamApp&SAMLart=AAFSsPYAkNKN6Mb0Q6Li8D8gawrtLLyj2rv3yxkxmhvECwuISY44YcAl).
 
 

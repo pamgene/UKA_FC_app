@@ -1,0 +1,106 @@
+{
+ "kind": "TableSchema",
+ "id": "7c39c9ffe045c2ede54c08f3e71c13aa0eff6e008948303280256de263440827",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "UKA_PTK_input_FC.txt",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "7c39c9ffe045c2ede54c08f3e71c13aa0eff6e008948303280256de263440827"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 148,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "402c536a-a664-41a2-869b-89148656affd",
+   "name": "Group",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "477d212d-251f-471e-abc5-f4476a9e2e0d",
+   "name": "Observation",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "42051b5b-7cce-438f-9acc-8577fafbedfc",
+   "name": "Variable",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "03194bfa-f1de-4bad-8ca7-524578791ead",
+   "name": "Measurement",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/7c/39/7c39c9ffe045c2ede54c08f3e71c13aa0eff6e008948303280256de263440827",
+ "relation": {
+  "kind": "Relation",
+  "id": "6d6c1b3b-6d7a-4cf6-8a99-b9410cd7b750"
+ }
+}
