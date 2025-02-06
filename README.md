@@ -9,6 +9,7 @@ The `UKA_FC_app` allows performs Upstream Kinase Analysis (UKA) for tyrosine or 
 * Version 0.1.0 and above uses the UKA-2023 db (contains Array Layouts 86312, 86402, 86412, 87102)
 	* Version 0.1.1: scoreplot Kinase name colors fixed
 * Version 0.2.0: uses UKA db 2024 (contains Array Layouts 86312, 86402, 86412, 87102, 87202)
+	* version 0.2.1: bugfix in UKA db: missing sequences are now included (MK07_212_224, JAK1_1027_1039, DCX_67_79)
 
 ##### Details
 
